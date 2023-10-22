@@ -1,0 +1,211 @@
+header{
+	text-align:center
+	}
+nav{
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:#8c2737;
+	border-radius:15px;
+	height:50px;
+	padding-top:25px;
+	text-align:center
+}
+nav a{
+	text-decoration:none;
+	color:#FFF;
+	margin:50px;
+	font-size:19px;
+	font-weight: bold
+}
+.botones{
+	display:flex
+	}
+nav img{
+	border-radius:5px
+	}
+.inicio a:hover{
+	color:#000;
+	background-color:#fff;
+	border-radius:15px;
+	padding:5px;
+	margin:45px
+}
+.servicios a:hover{
+	color:#000;
+	background-color:#fff;
+	border-radius:15px;
+	padding:5px;
+	margin:45px
+}
+.institucional a:hover{
+	color:#000;
+	background-color:#fff;
+	border-radius:15px;
+	padding:5px;
+	margin:45px
+}
+.sobreNosotros a:hover{
+	color:#000;
+	background-color:#fff;
+	border-radius:15px;
+	padding:5px;
+	margin:45px
+}
+.nosotros{
+	text-align:center;
+	color:#8c2737;
+	font-family:Arial, Helvetica, sans-serif
+}
+p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:26px;
+	padding-left:160px;
+	padding-right:220px;
+	color:#666
+}
+span{
+	color:#000;
+	font-weight:bold
+	}
+.seccionArriba{
+	background-color:#8c2737;
+	border-radius:20px;
+	padding-bottom:20px
+	}
+.seccionArriba ul{
+	list-style:none;
+	text-align:left;
+	line-height:110px
+}
+.queHacemos{
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+	padding-top:20px
+	}
+.diseño{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	padding-left:70px
+	}
+.seccionArriba a{
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 26px;
+	padding-bottom: 20px;
+	text-align: center;
+	margin:50px;
+	padding-left:20px
+	}
+.contenedor{
+	display:grid;
+	grid-template-columns:50% 50%
+}
+
+.imagenDiseño{
+	text-align:center;
+	padding-right:85px;
+	padding-bottom:30px
+	}
+.seccionMedio{
+	background-color:#666;
+	border-radius:20px;
+	padding-bottom:20px
+	}
+.seccionMedio ul{
+	list-style:none;
+	text-align:left;
+	line-height:110px
+}
+.digital{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	padding-left:70px;
+	text-align:left;
+	padding-top:50px
+	}
+.seccionMedio a{
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:26px;
+	text-align:right;
+	padding-bottom:20px;
+	padding-right:20px;
+	margin:50px
+	}
+.imagenDigital{
+	text-align:left;
+	padding-left:85px;
+	padding-bottom:30px
+	}
+.arqui{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	padding-left: 70px;
+	text-align:left;
+	padding-top:50px
+	}
+.seccionBaja{
+	background-color:#8c2737;
+	border-radius:20px;
+	padding-bottom:30px
+	}
+.seccionBaja ul{
+	list-style:none;
+	text-align:left;
+	line-height:110px;
+	padding-top:50px
+}
+.seccionBaja a{
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:26px;
+	text-align:center;
+	padding-bottom:20px;
+	padding-left:20px;
+	margin:50px
+	}
+.imagenArqui{
+	padding-right:85px;
+	text-align:center;
+	padding-bottom:30px
+	}
+form{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px
+	}
+.formulario{
+	display:flex;
+	flex-direction:column;
+	border-width:7px;
+	border-color:#8c2737
+	}
+.enviar{
+	border-width:5px;
+	width:100%;
+	color:#fff;
+	background-color:#8c2737;
+	font-weight:bold;
+	font-size:20px;
+	padding-bottom:10px;
+	padding-top:10px
+	}
+@media (max-width:320px){
+	body{
+		font-size:9px
+	}
+}
+@media (max-width:480px) {
+	body{
+		font-size:12px
+	}
+}
+@media (max-width:600px) {
+	body{
+		font-size:15px
+	}
+}
+@media (max-width:1024px) {
+	body{
+		font-size:18px
+	}
+}
